@@ -221,3 +221,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# NBA datasets
+*.sqlite
+*.sqlite3
+*.db
+csv/
+data/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
