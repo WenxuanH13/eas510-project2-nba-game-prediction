@@ -60,7 +60,7 @@ for name, model in models.items():
     f1 = f1_score(y_test, predictions, zero_division=0)
 
     print(f"\n{name}")
-    print(f"Accuracy:  {accuracy:.4f}")
-    print(f"Precision: {precision:.4f}")
-    print(f"Recall:    {recall:.4f}")
-    print(f"F1-score:  {f1:.4f}")
+    print(f"Accuracy:  {accuracy}")
+    print(f"Precision: {precision}")
+    print(f"Recall:    {recall}")
+    print(f"F1-score:  {f1}")
